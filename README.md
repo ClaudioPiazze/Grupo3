@@ -33,10 +33,9 @@ Por linea de comandos realizar los siguientes pasos:
 4. terminal --> **npm** install dotenv
 
 ### - Para cuando inicias el proyecto
-1. Crear los archivos .js -- uno el server.js y otro para ./src/mongodb.js ** yo sacaria esta linea porque es para cuando creamos un proyecto. en nuestro caso ya esta generado y funcionando
-2. Pegar esta linea en el package.json   "start": "node --watch server.js"
-3. Crear las apis
-4. Probar en postman o thunder cada API
+1. Pegar esta linea en el package.json   "start": "node --watch server.js"
+2. Crear las apis
+3. Probar en postman o thunder cada API
 
 ### - Para cuando vas a ejectuar el server.js
 
