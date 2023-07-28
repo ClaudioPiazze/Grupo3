@@ -15,7 +15,8 @@ El _objetivo de este desarrollo_ es demostrar a través de un trabajo integrador
 
 | Archivo | Descripción |
 |--------------|--------------|
-| Prendas.json  | Prendas de Vestir    |
+| Prendas.json  |  :dress: Prendas de Vestir  :necktie:   |
+	
 
 ## Receta:
 Para poder hacer funcionar al proyecto debera realizar los siguiente _pasos_:
