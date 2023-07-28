@@ -3,7 +3,7 @@
 ## ¿Por que estoy leyendo esto?
 Si estas leyendo este README.md es porque 3 alumnos del llamado **Grupo 3** le compartieron desde GITHUB un [Archivo en formato .ZIP con el contenido del proyecto integrador](https://github.com/ClaudioPiazze/Grupo3). 
 
-En el marco de la cusada de la [Diplomatura en Programación WEB Backend](http://cuch.gob.ar/desarrollador-web-full-stack/), 
+En el marco de la cursada de la [Diplomatura en Programación WEB Backend](http://cuch.gob.ar/desarrollador-web-full-stack/), 
 dictada en modalidad Virtual y Presencial por la [UNTREF](https://www.untref.edu.ar/) se presenta el primer trabajo integrador correspondente a lo aprendido en el primer cuatrimestre de 2023, basado en Node.js y MongoDB.
 
 ## Objetivo
@@ -33,10 +33,15 @@ Por linea de comandos realizar los siguientes pasos:
 4. terminal --> **npm** install dotenv
 
 ### - Para cuando inicias el proyecto
-1. Crear los archivos .js -- uno el server.js y otro para ./src/mongodb.js
+1. Crear los archivos .js -- uno el server.js y otro para ./src/mongodb.js ** yo sacaria esta linea porque es para cuando creamos un proyecto. en nuestro caso ya esta generado y funcionando
 2. Pegar esta linea en el package.json   "start": "node --watch server.js"
 3. Crear las apis
 4. Probar en postman o thunder cada API
+
+### - Para cuando vas a ejectuar el server.js
+
+1. Buscar la creación de la constante 'mibd' en la linea 7 del archivo 'server.js' y cambiar su contenido por el nombre de su base de datos
+2. En la linea 8 del mismo archivo esta la declaración de la constante 'micoll' la que debera ser modificada con el nombre que le asignara a su coleccion
 
 ## ¿Quienes son los integrantes del grupo 3?
 
@@ -48,4 +53,4 @@ Por linea de comandos realizar los siguientes pasos:
 _Link GitHub_
 
 ## Canal Discord del Grupo 3 
-En este **[canal](https://discord.com/channels/1125929860309713000/1126640148684230798)** compatimos las dudas, afianzamos las soluciones, nos repatimos tareas, consolidamos acuerdos. Con mucha concentración, risas y desenfados. Conteniendonos mutuamente y llegando al objetivo! :smiley:
+En este **[canal](https://discord.com/channels/1125929860309713000/1126640148684230798)** compartimos las dudas, afianzamos las soluciones, nos repatimos tareas, consolidamos acuerdos. Con mucha concentración, risas y desenfados. Conteniendonos mutuamente y llegando al objetivo! :smiley:
