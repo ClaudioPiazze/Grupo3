@@ -11,7 +11,7 @@ El _objetivo de este desarrollo_ es demostrar a través de un trabajo integrador
 
 ![imagen grupo3](./Grupo3.jpg)
 
-## JSON elejido para poblar la Base de Datos: 
+## JSON elejido para poblar la Base de Datos : 
 
 | Archivo | Descripción |
 |--------------|--------------|
