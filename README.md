@@ -52,5 +52,8 @@ Por linea de comandos realizar los siguientes pasos:
 | - [Piazze, Claudio ](https://github.com/ClaudioPiazze/)|
 _Link GitHub_
 
-## Canal Discord del Grupo 3 
+## Canal Discord del Grupo 3️⃣
 En este **[canal](https://discord.com/channels/1125929860309713000/1126640148684230798)** compartimos las dudas, afianzamos las soluciones, nos repatimos tareas, consolidamos acuerdos. Con mucha concentración, risas y desenfados. Conteniendonos mutuamente y llegando al objetivo! :smiley:
+
+## ¿Como se compone la Creación, Lectura, Actualizacion y Borrado de uno o varias prendas? 🩳
+Leer el siguiente apartado: [CRUD y Control De Errores](./CRUD_ControlDeErrores.md)  
