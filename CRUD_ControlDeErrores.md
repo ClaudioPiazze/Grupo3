@@ -23,7 +23,7 @@ app.get('/prendas', async (req, res) => {
 });
 ```
 ## 👚 Obtener un producto
-- [x] El segundo endpoint deberá permitir obtener un producto por su :id. Recuerda que
+- [x] El segundo endpoint deberá permitir obtener un producto por su :id. (Nosotros nos vasamos en el campo _*Codigo*_) Recuerda que
 solo debe mostrar uno solo que coincida, y también deberás incluir un control de
 errores.
 ```javascript
@@ -86,7 +86,7 @@ app.get('/prendas/nombre/:nombre', async (req, res) => {
 ## 👗 Agregar un nuevo producto
 - [x] En el cuarto endpoint deberás permitir agregar un nuevo producto. Recuerda validar
 cualquier posible error mediante una respuesta acorde.
-- [x] Respecto a su código numérico, puedes generar uno a partir de la totalización + 1
+- [ ] Respecto a su código numérico, puedes generar uno a partir de la totalización + 1
 de productos que existan en tu colección, o directamente crear alguna función de
 retorno al azar.
 ```javascript
@@ -159,7 +159,18 @@ app.patch('/prendas/codigo/:codigo', async (req, res) => {
         });
     }
   });
+```
 
+#  Control de errores 🆗
+- [x] Al solicitar controlar errores en cada endpoint a crear, ten presente que se deben
+controlar errores en la estructura que se envía para realizar alguna operación, como
+también en cualquier posible error de respuesta por parte de la base de datos.
+Cada error aquí mencionado corresponde a un código de error específico.
+
+- [x] También ten presente controlar el acceso a cualquier ruta no existente, con un error
+acorde.
+
+```javascript
 app.use((req, res, next) => {
     console.log('app use error')
     res.status(404).send('Lo siento, la pagina solicitada no existe.');
@@ -167,15 +178,5 @@ app.use((req, res, next) => {
 });
 
 ```
-
-#  Control de errores 🆗
-- [ ] Al solicitar controlar errores en cada endpoint a crear, ten presente que se deben
-controlar errores en la estructura que se envía para realizar alguna operación, como
-también en cualquier posible error de respuesta por parte de la base de datos.
-Cada error aquí mencionado corresponde a un código de error específico.
-
-- [ ] También ten presente controlar el acceso a cualquier ruta no existente, con un error
-acorde.
-
-- [ ] Para todo el control de errores solicitados, envía un mensaje de respuesta acorde y
+- [x] Para todo el control de errores solicitados, envía un mensaje de respuesta acorde y
 también el código de error correspondiente.
