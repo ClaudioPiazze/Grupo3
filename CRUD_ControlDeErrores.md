@@ -174,7 +174,6 @@ acorde.
 app.use((req, res, next) => {
     console.log('app use error')
     res.status(404).send('Lo siento, la pagina solicitada no existe.');
-    // next();
 });
 
 ```
